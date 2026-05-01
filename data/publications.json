@@ -1,0 +1,28 @@
+{
+  "updated": "2026-05-01",
+  "source": "CV and DOI verified records; Google Scholar auto-sync pending exact profile URL.",
+  "publications": [
+    {
+      "year": 2024,
+      "type": "Journal Article",
+      "title": "Pistis: A Scheduler to Achieve Ultra Reliability for URLLC Traffic in 5G O-RAN",
+      "authors": "Q. Liu, C. Li, S. Li, Y. Shi, B. Zhou, Y. T. Hou, and W. Lou",
+      "venue": "IEEE Internet of Things Journal",
+      "citation": "Q. Liu, C. Li, S. Li, Y. Shi, B. Zhou, Y. T. Hou, and W. Lou, \"Pistis: A Scheduler to Achieve Ultra Reliability for URLLC Traffic in 5G O-RAN,\" IEEE Internet of Things Journal, vol. 11, no. 21, pp. 35405-35419, 2024.",
+      "links": {
+        "DOI": "https://doi.org/10.1109/JIOT.2024.3437167"
+      }
+    },
+    {
+      "year": 2021,
+      "type": "Journal Article",
+      "title": "IoT-Based Sanitizer Station Network: A Facilities Management Case Study on Monitoring Hand Sanitizer Dispenser Usage",
+      "authors": "J. Zhao, B. Zhou, J. P. Butler, R. G. Bock, J. P. Portelli, and S. G. Bilen",
+      "venue": "Smart Cities",
+      "citation": "J. Zhao, B. Zhou, J. P. Butler, R. G. Bock, J. P. Portelli, and S. G. Bilen, \"IoT-Based Sanitizer Station Network: A Facilities Management Case Study on Monitoring Hand Sanitizer Dispenser Usage,\" Smart Cities, vol. 4, no. 3, pp. 979-994, 2021.",
+      "links": {
+        "DOI": "https://doi.org/10.3390/smartcities4030051"
+      }
+    }
+  ]
+}

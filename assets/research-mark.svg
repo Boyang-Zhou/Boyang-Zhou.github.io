@@ -1,0 +1,17 @@
+<svg width="720" height="720" viewBox="0 0 720 720" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Abstract research network">
+  <rect width="720" height="720" rx="64" fill="#F7FAF6"/>
+  <path d="M118 464C185 315 273 236 382 227C491 218 567 273 608 392" stroke="#0E6B5B" stroke-width="18" stroke-linecap="round"/>
+  <path d="M112 362C202 404 290 403 376 358C462 313 540 312 610 356" stroke="#D7A84E" stroke-width="18" stroke-linecap="round"/>
+  <path d="M176 548C261 490 348 466 437 477C526 488 574 529 583 600" stroke="#9A3F30" stroke-width="18" stroke-linecap="round"/>
+  <circle cx="178" cy="365" r="32" fill="#17201D"/>
+  <circle cx="381" cy="227" r="42" fill="#0E6B5B"/>
+  <circle cx="443" cy="477" r="36" fill="#9A3F30"/>
+  <circle cx="583" cy="600" r="28" fill="#D7A84E"/>
+  <circle cx="610" cy="356" r="24" fill="#17201D"/>
+  <g opacity="0.18">
+    <path d="M160 130H560" stroke="#17201D" stroke-width="2"/>
+    <path d="M160 590H560" stroke="#17201D" stroke-width="2"/>
+    <path d="M130 160V560" stroke="#17201D" stroke-width="2"/>
+    <path d="M590 160V560" stroke="#17201D" stroke-width="2"/>
+  </g>
+</svg>
