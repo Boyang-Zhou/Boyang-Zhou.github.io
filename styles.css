@@ -428,6 +428,18 @@ img {
   font-weight: 900;
 }
 
+.blind-review-note {
+  display: inline-block;
+  margin-inline: 3px;
+  padding: 1px 7px;
+  border-left: 3px solid rgba(0, 119, 182, 0.55);
+  border-radius: 3px;
+  background: rgba(0, 119, 182, 0.06);
+  color: var(--secondary-text);
+  font-size: 15px;
+  font-style: italic;
+}
+
 .publication-links {
   display: inline;
   margin-left: 0;
