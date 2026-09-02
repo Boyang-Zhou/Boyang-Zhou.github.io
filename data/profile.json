@@ -6,9 +6,9 @@
   "github": "",
   "cv": "assets/Boyang_Zhou_CV.pdf",
   "researchAreas": [
-    "RF-aware wireless system design",
+    "RF-aware wireless system analysis",
     "MIMO-OFDM link-level simulation",
-    "Real-time beamforming and MAC scheduling",
-    "GPU optimization and machine learning"
+    "PHY- and MAC-layer resource allocation under imperfect CSI",
+    "Real-time resource allocation with lightweight machine learning"
   ]
 }
