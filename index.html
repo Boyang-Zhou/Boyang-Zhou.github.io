@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Boyang Zhou, Ph.D. student at Virginia Tech working on Next-G wireless networks, GPU-based real-time optimization, machine learning, and reinforcement learning.">
+    <meta name="description" content="Boyang Zhou is a fifth-year Computer Engineering Ph.D. student at Virginia Tech researching reliable, resource-efficient wireless systems across the RF, PHY, and MAC layers.">
     <title>Boyang Zhou</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -14,10 +14,10 @@
     <nav class="floating-nav" aria-label="Primary navigation">
       <a href="#home">Home</a>
       <a href="#about">About</a>
-      <a href="#projects">Projects</a>
+      <a href="#projects">Research</a>
       <a href="#publications">Publications</a>
       <a href="#services">Services</a>
-      <a href="#award">Award</a>
+      <a href="#award">Awards</a>
       <a class="nav-contact" href="#contact">Contact</a>
     </nav>
 
@@ -32,7 +32,7 @@
             </div>
             <div class="hero-text">
               <h1>Hi, I'm Boyang Zhou<span>.</span></h1>
-              <h2>Computer Engineering Ph.D. Student at Virginia Tech</h2>
+              <h2>Fifth-Year Computer Engineering Ph.D. Student at Virginia Tech</h2>
               <div class="social-row" aria-label="Profile links">
                 <a href="https://www.linkedin.com/in/byzhou1" rel="noreferrer">LinkedIn</a>
                 <a href="https://scholar.google.com/citations?user=T1rkbY0AAAAJ&hl=en" rel="noreferrer">Google Scholar</a>
@@ -42,8 +42,8 @@
           </div>
 
           <p class="hero-copy">
-            My research focuses on NextG wireless communication.
-            <span>I am currently working on MAC-layer scheduling algorithms for URLLC and other time-critical applications.</span>
+            My research spans wireless communications across the RF, PHY, and MAC layers.
+            <span>I design reliable, resource-efficient wireless systems using communication theory, optimization, and machine learning.</span>
           </p>
 
         </div>
@@ -57,15 +57,18 @@
         <div class="about-layout">
           <div class="about-copy">
             <p>
-              I am a Ph.D. student in the Bradley Department of Electrical and Computer
-              Engineering at Virginia Tech, advised by Professor Tom Hou.
+              I am a fifth-year Ph.D. student in Computer Engineering at Wireless@Virginia
+              Tech, advised by Professor Y. Thomas Hou. I expect to complete my Ph.D. in May 2027.
             </p>
             <p>
-              I received my dual B.S. degrees in Computer Science and Mathematics from
-              the Pennsylvania State University in 2022, graduating with magna cum laude honors.
-              My current research interests include
-              algorithms design for Next-G wireless networks, GPU-based real-time optimization,
-              machine learning, and reinforcement learning.
+              I received my M.S. in Computer Engineering from Virginia Tech in 2024 and
+              dual B.S. degrees in Computer Science and Mathematics from the Pennsylvania
+              State University in 2022, graduating with magna cum laude honors.
+            </p>
+            <p>
+              My work combines RF impairment modeling, link-level performance analysis,
+              transceiver algorithm design, and MAC-layer resource allocation. I am especially
+              interested in channel estimation, synchronization, beamforming, and real-time scheduling.
             </p>
           </div>
         </div>
@@ -73,19 +76,23 @@
 
       <section id="projects" class="content-section">
         <header class="section-heading">
-          <h2>Research Project<span>.</span></h2>
+          <h2>Research<span>.</span></h2>
         </header>
 
-        <div class="project-grid single-project">
-          <article class="project-card">
-            <img class="project-thumb" src="assets/factory-wireless.png" alt="Automated factory with wireless communication overlay">
-            <h3>MAC Scheduling for URLLC Industrial Automation</h3>
-            <p>
-              Designing MAC-layer scheduling algorithms for fully automated Industry 4.0
-              wireless factories, with an emphasis on URLLC and time-critical traffic.
-            </p>
-          </article>
-        </div>
+        <article class="research-feature">
+          <div class="research-visual">
+            <img src="assets/factory-wireless.png" alt="Automated industrial factory connected by wireless links">
+          </div>
+          <div class="research-content">
+            <h3>Cross-Layer Real-Time Scheduling for Reliable, Low-Latency Wireless Systems</h3>
+            <ul>
+              <li>Analyze RF impairments and transceiver nonidealities and characterize their effects on baseband processing, multiuser interference, effective SINR, and spectrum utilization.</li>
+              <li>Develop a multiuser MIMO-OFDM link-level simulator incorporating 3GPP channel models, RF and PHY nonidealities, channel estimation, beamforming, modulation, and channel coding.</li>
+              <li>Design millisecond-scale beamforming and MAC-layer scheduling algorithms under practical RF- and PHY-layer constraints to meet stringent latency and reliability requirements.</li>
+              <li>Apply communication theory, real-time GPU algorithm design, convex optimization, machine learning, and reinforcement learning under execution-time constraints below five milliseconds.</li>
+            </ul>
+          </div>
+        </article>
       </section>
 
       <section id="publications" class="content-section">
@@ -95,6 +102,22 @@
 
         <div class="publication-list" aria-live="polite">
           <ol class="ieee-list">
+            <li>
+              <strong class="author-emphasis">B. Zhou</strong>, Y. Shi, F. Zhou, S. Acharya,
+              L. DaSilva, W. Lou, and Y. T. Hou, "TinyTitan: A Real-Time MU-MIMO Scheduler
+              for URLLC with Tiny Neural Networks," submitted to <em>IEEE INFOCOM 2027</em>.
+            </li>
+            <li>
+              F. Zhou, <strong class="author-emphasis">B. Zhou</strong>, Y. Shi, S. Kompella,
+              C. Kam, W. Lou, and Y. T. Hou, "From Words-to-Code: An Automated AI System
+              to Empower Every Wireless System Engineer," submitted to <em>IEEE INFOCOM 2027</em>.
+            </li>
+            <li>
+              <strong class="author-emphasis">B. Zhou</strong>, Y. Shi, Y. Wu, S. Acharya,
+              L. DaSilva, W. Lou, and Y. T. Hou, "Atalanta: A Bandwidth-Conserving URLLC
+              Scheduler for Industrial Automation," under major revision for
+              <em>IEEE Internet of Things Journal</em>, 2026.
+            </li>
             <li>
               Q. Liu, C. Li, S. Li, Y. Shi, <strong class="author-emphasis">B. Zhou</strong>,
               Y. T. Hou, and W. Lou, "Pistis: A Scheduler to Achieve Ultra Reliability for
@@ -118,10 +141,10 @@
         </header>
 
         <ul class="entry-list">
-          <li><span>[2026]</span> Reviewer, IEEE Internet of Things Journal (IoTJ)</li>
-          <li><span>[2025]</span> Reviewer, IEEE Transactions on Cognitive Communications and Networking (TCCN)</li>
-          <li><span>[2024]</span> Reviewer, IEEE Open Journal of the Communications Society (OJ-COMS)</li>
-          <li><span>[2024]</span> Reviewer, IEEE Global Communications Conference (GLOBECOM)</li>
+          <li><span>[2024-2026]</span> Invited Reviewer, IEEE Internet of Things Journal (IoTJ)</li>
+          <li><span>[2024-2026]</span> Invited Reviewer, IEEE Transactions on Cognitive Communications and Networking (TCCN)</li>
+          <li><span>[2024-2026]</span> Invited Reviewer, IEEE Open Journal of the Communications Society (OJ-COMS)</li>
+          <li><span>[2024-2026]</span> Invited Reviewer, IEEE Global Communications Conference (GLOBECOM)</li>
         </ul>
       </section>
 
@@ -131,10 +154,10 @@
         </header>
 
         <ul class="entry-list">
-          <li><span>[2026]</span> Commonwealth Cyber Initiative Cyber Innovation Scholar</li>
-          <li><span>[2026]</span> First Place, Open6G+AI Workshop Hackathon</li>
-          <li><span>[2022]</span> Department Research Fellowship, Virginia Polytechnic Institute and State University</li>
-          <li><span>[2019]</span> First Place, CodePSU Beginner Level, Penn State Association for Computing Machinery</li>
+          <li><span>[2026]</span> First Place, Open6G+AI Workshop Hackathon; selected from participants representing more than 40 institutions worldwide</li>
+          <li><span>[2026]</span> Cyber Innovation Scholar, Commonwealth Cyber Initiative Southwest Virginia</li>
+          <li><span>[2022]</span> Department Research Fellowship, Virginia Tech ECE; sole recipient among the incoming Ph.D. cohort</li>
+          <li><span>[2019]</span> First Place, CodePSU Programming Competition, Beginner Division</li>
         </ul>
       </section>
 

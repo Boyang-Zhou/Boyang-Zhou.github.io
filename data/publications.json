@@ -1,7 +1,34 @@
 {
-  "updated": "2026-05-01",
-  "source": "CV and DOI verified records; Google Scholar auto-sync pending exact profile URL.",
+  "updated": "2026-09-02",
+  "source": "Boyang Zhou CV, updated September 2026.",
   "publications": [
+    {
+      "year": 2027,
+      "type": "Submitted Conference Paper",
+      "title": "TinyTitan: A Real-Time MU-MIMO Scheduler for URLLC with Tiny Neural Networks",
+      "authors": "B. Zhou, Y. Shi, F. Zhou, S. Acharya, L. DaSilva, W. Lou, and Y. T. Hou",
+      "venue": "Submitted to IEEE INFOCOM 2027",
+      "citation": "B. Zhou, Y. Shi, F. Zhou, S. Acharya, L. DaSilva, W. Lou, and Y. T. Hou, \"TinyTitan: A Real-Time MU-MIMO Scheduler for URLLC with Tiny Neural Networks,\" submitted to IEEE INFOCOM 2027.",
+      "links": {}
+    },
+    {
+      "year": 2027,
+      "type": "Submitted Conference Paper",
+      "title": "From Words-to-Code: An Automated AI System to Empower Every Wireless System Engineer",
+      "authors": "F. Zhou, B. Zhou, Y. Shi, S. Kompella, C. Kam, W. Lou, and Y. T. Hou",
+      "venue": "Submitted to IEEE INFOCOM 2027",
+      "citation": "F. Zhou, B. Zhou, Y. Shi, S. Kompella, C. Kam, W. Lou, and Y. T. Hou, \"From Words-to-Code: An Automated AI System to Empower Every Wireless System Engineer,\" submitted to IEEE INFOCOM 2027.",
+      "links": {}
+    },
+    {
+      "year": 2026,
+      "type": "Journal Paper Under Revision",
+      "title": "Atalanta: A Bandwidth-Conserving URLLC Scheduler for Industrial Automation",
+      "authors": "B. Zhou, Y. Shi, Y. Wu, S. Acharya, L. DaSilva, W. Lou, and Y. T. Hou",
+      "venue": "Under major revision for IEEE Internet of Things Journal",
+      "citation": "B. Zhou, Y. Shi, Y. Wu, S. Acharya, L. DaSilva, W. Lou, and Y. T. Hou, \"Atalanta: A Bandwidth-Conserving URLLC Scheduler for Industrial Automation,\" under major revision for IEEE Internet of Things Journal, 2026.",
+      "links": {}
+    },
     {
       "year": 2024,
       "type": "Journal Article",

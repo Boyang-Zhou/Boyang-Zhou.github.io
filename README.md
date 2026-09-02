@@ -18,14 +18,6 @@ Then open `http://localhost:8080`.
 
 GitHub Pages is available for public repositories on GitHub Free.
 
-## Updating publications
+## Updating content
 
-Google Scholar does not provide an official public API. This site therefore keeps publications in `data/publications.json`.
-
-For automatic updates:
-
-1. Add your Google Scholar profile ID to `data/profile.json`.
-2. Add `SERPAPI_KEY` as a GitHub repository secret.
-3. Run the `Update publications` GitHub Action manually or let the weekly schedule run.
-
-Without a SerpAPI key, the site still works from the manually curated JSON file.
+The public-facing biography, research, publications, service, and awards are maintained directly in `index.html`. Replace `assets/Boyang_Zhou_CV.pdf` whenever the downloadable CV changes.

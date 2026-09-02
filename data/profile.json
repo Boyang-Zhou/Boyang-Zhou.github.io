@@ -1,13 +1,14 @@
 {
   "name": "Boyang Zhou",
-  "title": "Ph.D. Student, Bradley Department of Electrical and Computer Engineering, Virginia Tech",
+  "title": "Fifth-Year Ph.D. Student, Wireless@Virginia Tech",
   "email": "boyangzhou@vt.edu",
-  "googleScholarProfileId": "",
+  "googleScholarProfileId": "T1rkbY0AAAAJ",
   "github": "",
-  "cv": "",
+  "cv": "assets/Boyang_Zhou_CV.pdf",
   "researchAreas": [
-    "Wireless network optimization",
-    "GPU-based real-time systems",
-    "Machine learning"
+    "RF-aware wireless system design",
+    "MIMO-OFDM link-level simulation",
+    "Real-time beamforming and MAC scheduling",
+    "GPU optimization and machine learning"
   ]
 }
