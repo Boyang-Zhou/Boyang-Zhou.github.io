@@ -475,6 +475,20 @@ img {
   font-weight: 700;
 }
 
+.award-list li {
+  display: grid;
+  grid-template-columns: 6.5rem minmax(0, 1fr);
+  align-items: start;
+}
+
+.award-details small {
+  display: block;
+  margin-top: 3px;
+  color: var(--secondary-text);
+  font-size: 15px;
+  line-height: 1.55;
+}
+
 .contact-section {
   padding-bottom: 112px;
 }
@@ -620,6 +634,10 @@ img {
 
   .floating-nav .nav-contact {
     padding: 7px 9px;
+  }
+
+  .award-list li {
+    grid-template-columns: 5.25rem minmax(0, 1fr);
   }
 
   .social-row {
