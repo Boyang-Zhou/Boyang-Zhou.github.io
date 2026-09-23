@@ -15,7 +15,8 @@
     <nav class="floating-nav" aria-label="Primary navigation">
       <a href="#home">Home</a>
       <a href="#about">About</a>
-      <a href="#projects">Research</a>
+      <a href="#research">Research</a>
+      <a href="#projects">Projects</a>
       <a href="#publications">Publications</a>
       <a href="#services">Services</a>
       <a href="#award">Awards</a>
@@ -76,7 +77,7 @@
         </div>
       </section>
 
-      <section id="projects" class="content-section">
+      <section id="research" class="content-section">
         <header class="section-heading">
           <h2>Research<span>.</span></h2>
         </header>
@@ -86,17 +87,65 @@
             <img src="assets/factory-wireless.png" alt="Automated industrial factory connected by wireless links">
           </div>
           <div class="research-content">
-            <h3>Real-Time PHY/MAC Resource Allocation for Reliable Wireless Systems</h3>
+            <h3>PHY/MAC Algorithms for Reliable Wireless Systems</h3>
             <ul>
-              <li>Develop real-time beamforming, MAC scheduling, and radio-resource allocation algorithms for multiuser wireless systems under practical PHY/MAC constraints and sub-5-ms execution-time targets.</li>
-              <li>Build 3GPP-based multiuser MIMO-OFDM link-level simulations with imperfect channel state information, channel estimation, precoding, modulation, and channel coding to evaluate link performance.</li>
-              <li>Use compact neural-network models for SINR ranking and transmission-feasibility classification, alongside communication theory, convex optimization, GPU algorithms, and reinforcement learning.</li>
+              <li>Design PHY/MAC control and radio-resource management algorithms for multiuser wireless systems, accounting for cellular control procedures, imperfect channel state information, multiuser interference, and transmission-reliability requirements.</li>
+              <li>Develop 3GPP-based multiuser MIMO-OFDM link-level simulations incorporating channel-estimation uncertainty, transmit beamforming and precoding, modulation, channel coding and decoding, and link-performance evaluation.</li>
+              <li>Design real-time machine-learning-assisted beamforming and MAC scheduling algorithms under practical PHY/MAC constraints, including compact neural networks for SINR ranking and transmission-feasibility classification.</li>
+              <li>Apply communication theory, real-time GPU algorithms, convex optimization, machine learning, and reinforcement learning to PHY/MAC resource allocation under sub-5-ms execution-time constraints.</li>
               <li>Analyze how RF impairments and transceiver nonidealities affect baseband processing, multiuser interference, effective SINR, and spectrum utilization.</li>
-              <li>Implemented a QoS-aware MAC scheduler for an end-to-end 2 x 2 MIMO RAN prototype and evaluated throughput, latency, and packet loss.</li>
-              <li>Deployed a software-defined cellular system using NSF Open AI Cellular and connected a near-real-time RAN Intelligent Controller to an srsRAN base station.</li>
             </ul>
           </div>
         </article>
+      </section>
+
+      <section id="projects" class="content-section">
+        <header class="section-heading">
+          <h2>Projects<span>.</span></h2>
+        </header>
+
+        <div class="project-list">
+          <article class="project-item">
+            <h3>MIMO-OFDM Link-Level Simulator</h3>
+            <ul>
+              <li>Built a MATLAB link-level simulator with AWGN and time- and frequency-selective multipath channels, including Rayleigh, Rician, and Nakagami-m fading, delay and Doppler spread, and spatial antenna correlation.</li>
+              <li>Implemented OFDM processing, pilot-based channel estimation, equalization, coding, adaptive subcarrier bit loading, and carrier-frequency and symbol-timing synchronization.</li>
+              <li>Implemented MRT, MRC, SVD-based spatial multiplexing, Alamouti coding, and ZF, MMSE, SIC, and maximum-likelihood detection; evaluated BER, BLER, throughput, spectral efficiency, and pilot-overhead trade-offs.</li>
+            </ul>
+          </article>
+
+          <article class="project-item">
+            <h3>Parallel Radio-Resource Management</h3>
+            <ul>
+              <li>Implemented a parallel MAC-layer resource-allocation algorithm in C/C++ using OpenMP, MPI, and CUDA, with shared-memory flags and block-level synchronization for thread coordination.</li>
+              <li>Explored CPU memory locality through loop reordering, matrix transposition, and cache tiling.</li>
+            </ul>
+          </article>
+
+          <article class="project-item">
+            <h3>Reinforcement Learning</h3>
+            <ul>
+              <li>Implemented and evaluated TD(&lambda;), Q-learning, policy-gradient and actor-critic methods, PPO, and PPO-&lambda; in Python and PyTorch, using tabular, Fourier-basis, and neural-network approximations.</li>
+              <li>Tested algorithms in Cliff Walking, CartPole, and Continuous Mountain Car; tuned hyperparameters with Optuna and compared convergence, episodic reward, and training stability.</li>
+            </ul>
+          </article>
+
+          <article class="project-item">
+            <h3>End-to-End 2 &times; 2 MIMO RAN Prototype <span class="project-qualifier">(Team Project)</span></h3>
+            <ul>
+              <li>Designed and implemented a QoS-aware MAC scheduler that allocates radio resources using application throughput and latency requirements and real-time RAN feedback.</li>
+              <li>Evaluated throughput, latency, and packet loss on the end-to-end prototype.</li>
+            </ul>
+          </article>
+
+          <article class="project-item">
+            <h3>Software-Defined Cellular Network Deployment and Control</h3>
+            <ul>
+              <li>Deployed an end-to-end cellular system on the NSF Open AI Cellular platform and verified connectivity across the core, base station, user equipment, and virtual radio link.</li>
+              <li>Connected an O-RAN near-real-time RAN Intelligent Controller to an srsRAN base station and experimented with xApps for KPI monitoring, radio-resource scheduling, and AI-driven network control.</li>
+            </ul>
+          </article>
+        </div>
       </section>
 
       <section id="publications" class="content-section">
